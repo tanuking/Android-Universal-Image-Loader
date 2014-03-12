@@ -74,7 +74,7 @@ public class ImageNonViewAware implements ImageAware {
 
 	@Override
 	public int getId() {
-		return TextUtils.isEmpty(imageUri) ? super.hashCode() : imageUri.hashCode();
+		return super.hashCode();
 	}
 
 	@Override
